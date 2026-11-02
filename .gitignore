@@ -1,0 +1,20 @@
+# 测试与审片的产物
+leg10b/t/shots/
+leg10b/t/node_modules/
+leg10b/t/test.html
+leg10b/t/main.js
+leg10b/t/dusktrain-10.html
+leg10b/_tmp.js
+leg10b/aud*/
+leg10b/audit-*
+leg10b/cmp/
+# Python
+__pycache__/
+*.pyc
+leg10b/skyart/render/cache/
+# 短片的帧和成片
+mv/frames/
+mv/layers/
+mv/out/
+node_modules/
+.DS_Store
