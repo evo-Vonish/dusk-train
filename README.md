@@ -6,9 +6,15 @@
 
 > No last stop · 没有终点
 
+![黄昏列车驶过晚霞与海面倒影 / Dusk Train beneath the twilight sky](docs/images/twilight.jpg)
+
 A seaside tram follows the shoreline, riding forever through an unending dusk.
 
 The entire piece is self-contained in a single HTML file that runs completely offline with zero external dependencies: Canvas 2D renders the passing world, WebGL drives the flowing seasonal twilight in real time, and the Web Audio API procedurally synthesizes ocean waves, sea breeze, and the cadence of the rails.
+
+| Harbour Town · 海边小镇 | Moonlit Sea · 月色海岸 |
+| :---: | :---: |
+| ![白昼中的海边小镇与电车倒影 / Harbour town in the afternoon](docs/images/harbour.jpg) | ![满月、灯塔与发光水母 / Moonlight, lighthouse and luminous jellyfish](docs/images/full-moon.jpg) |
 
 ## Open
 
@@ -102,9 +108,15 @@ Released under the [MIT License](LICENSE). Free to use, modify, and distribute.
 
 > 没有终点 · no last stop
 
+![黄昏列车驶过晚霞与海面倒影 / Dusk Train beneath the twilight sky](docs/images/twilight.jpg)
+
 一列沿着海岸线行驶的电车，永远穿行在漫长的黄昏里。
 
 全作封装于单个 HTML 文件中，完全离线运行，零外部依赖：由 Canvas 2D 描绘沿途风物，WebGL 实时渲染流淌的四季晚霞，并通过 Web Audio API 现场合成海浪、风声与铁轨的律动。
+
+| Harbour Town · 海边小镇 | Moonlit Sea · 月色海岸 |
+| :---: | :---: |
+| ![白昼中的海边小镇与电车倒影 / Harbour town in the afternoon](docs/images/harbour.jpg) | ![满月、灯塔与发光水母 / Moonlight, lighthouse and luminous jellyfish](docs/images/full-moon.jpg) |
 
 ## 打开
 
