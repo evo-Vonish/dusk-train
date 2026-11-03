@@ -16,5 +16,29 @@ leg10b/skyart/render/cache/
 mv/frames/
 mv/layers/
 mv/out/
+# 短片的预览、踩点、生成的中间文件，和歌本身（歌不进仓库）
+mv/preview/
+mv/preview-layers/
+mv/stills/
+mv/scout4/
+mv/tscout/
+mv/kscout/
+mv/ov/
+mv/mv.html
+mv/mv-main.js
+mv/post.json
+mv/album-store.json
+mv/beats.json
+mv/onsets.json
+mv/song.*
+mv/*.log
+mv/*.out
+# 构建产物（成品就是根目录的 index.html）
+leg10b/dusktrain-10b.html
+leg10b/main10b.js
+leg10b/skyart/final/*.jpg
+leg10b/skyart/final/*_3072.png
+leg10b/t/*.out
+leg10b/t/bench*.html
 node_modules/
 .DS_Store

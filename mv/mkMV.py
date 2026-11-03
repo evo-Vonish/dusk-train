@@ -1,9 +1,9 @@
 # 从第十棒第八版（夜里的鲲）做一个拍片用的版本：暴露内部状态、加一个"虚拟摄影机"（按任意矩形、任意倍率重画画面），
 # 春、秋、冬换成 3072 宽的高清天；推近的时候，天按镜头的倍率现算（不是把一整张小图放大），云边是清楚的。
 import sys, pathlib, re, json
-# 用法：python3 mkMV.py [第七版的 dusktrain-10b.html] [高清天 sky_hi.json]（默认在旁边的 ../dusktrain/leg10b 里找）
-SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '../dusktrain/leg10b/dusktrain-10b.html')
-HI = json.load(open(sys.argv[2] if len(sys.argv) > 2 else '../dusktrain/leg10b/skyart/final/sky_hi.json'))
+# 用法：python3 mkMV.py [第八版的 dusktrain-10b.html] [高清天 sky_hi.json]（默认用仓库根目录的 index.html 和 ../leg10b/skyart/final/sky_hi.json）
+SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '../index.html')
+HI = json.load(open(sys.argv[2] if len(sys.argv) > 2 else '../leg10b/skyart/final/sky_hi.json'))
 src = SRC.read_text(encoding='utf-8')
 
 # ---- 高清的三张天
