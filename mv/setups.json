@@ -1,0 +1,16 @@
+[
+ {"name": "st0-spring", "hash": "#st=0", "init": "T.NX.seasonForce = 0; T.S.timeMode = 'dusk'; T.S.weather = 'clear'; T.S.nightF = 0; T.S.gustT = 1e9; T.S.tramTimer = Infinity;", "preroll": 4},
+ {"name": "sea-summer", "hash": "", "init": "const g = T.G(); T.NX.seasonForce = 1; T.S.timeMode = 'dusk'; T.S.weather = 'clear'; T.S.nightF = 0; T.S.travel = T.S.camera = 0.45 * g; T.S.tramMode = 'cruising'; T.S.tramV = 0.205; T.S.stopAt = Infinity; T.S.tramTimer = Infinity; T.KUN.done = {};", "preroll": 4},
+ {"name": "st1-summer", "hash": "#st=1", "init": "T.NX.seasonForce = 1; T.S.timeMode = 'dusk'; T.S.weather = 'clear'; T.S.nightF = 0; T.S.tramTimer = Infinity;", "preroll": 4},
+ {"name": "st2-autumn", "hash": "#st=2", "init": "T.NX.seasonForce = 2; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity; T.SKY2.moonUp = 1;", "preroll": 14},
+ {"name": "st3-summer", "hash": "#st=3", "init": "T.NX.seasonForce = 1; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity;", "preroll": 6},
+ {"name": "st4-winter", "hash": "#st=4", "init": "T.NX.seasonForce = 3; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity;", "preroll": 6},
+ {"name": "st5-autumn", "hash": "#st=5", "init": "T.NX.seasonForce = 2; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity;", "preroll": 6},
+ {"name": "st6-spring", "hash": "#st=6", "init": "T.NX.seasonForce = 0; T.S.timeMode = 'dusk'; T.S.weather = 'clear'; T.S.nightF = 0; T.S.tramTimer = Infinity;", "preroll": 4},
+ {"name": "st7-summer", "hash": "#st=7", "init": "T.NX.seasonForce = 1; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity;", "preroll": 8},
+ {"name": "st3-winter", "hash": "#st=3", "init": "T.NX.seasonForce = 3; T.S.timeMode = 'night'; T.S.weather = 'clear'; T.S.nightF = 1; T.S.tramTimer = Infinity;", "preroll": 6},
+ {"name": "noon", "hash": "#noon", "init": "T.S.gustT = 1e9;", "preroll": 3},
+ {"name": "sunset", "hash": "#sunset", "init": "T.S.gustT = 1e9;", "preroll": 3},
+ {"name": "fireworks", "hash": "#fireworks", "init": "T.NX.seen.fireworks = true; T.S.tramTimer = Infinity; T.S.dwellT = 4; T.S.nightF = 0.18; T.S.gustT = 1e9;", "preroll": 4},
+ {"name": "storm", "hash": "#storm", "init": "T.NX.seasonForce = 1; T.S.tramTimer = Infinity;", "preroll": 15}
+]
